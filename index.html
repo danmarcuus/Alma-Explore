@@ -2,28 +2,87 @@
 <html lang="ro">
 <head>
   <meta charset="UTF-8">
-  <title>Alma Explore - Agenția ta de turism</title>
+  <title>Alma Explore - Agenție de turism</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eef2f3;
+      color: #333;
       text-align: center;
-      padding: 50px;
     }
+
+    header {
+      background-color: #0077cc;
+      padding: 20px 0;
+      color: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     h1 {
-      color: #0066cc;
       font-size: 48px;
+      margin-top: 40px;
+      color: #0077cc;
     }
+
     p {
       font-size: 20px;
-      color: #333;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .btn-contact {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 18px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn-contact:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>Alma Explore</h1>
-  <p>Descoperă lumea cu noi! 🌍</p>
-  <p>Vacanțe personalizate, oferte speciale și experiențe de neuitat.</p>
-  <p>Contactează-ne: <strong>contact@almaexplore.ro</strong></p>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Despre</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Alma Explore</h1>
+    <p>Descoperă lumea alături de noi! 🌍 Oferim vacanțe personalizate și experiențe unice, adaptate nevoilor tale.</p>
+    <p>Fie că vrei mare, munte sau city break, te ajutăm să alegi perfectul.</p>
+    <a href="mailto:contact@almaexplore.ro" class="btn-contact">Contactează-ne</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alma Explore. Toate drepturile rezervate.</p>
+  </footer>
 </body>
 </html>
